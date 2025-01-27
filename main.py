@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the data
-data = pd.read_csv(r'C:\Users\sunny\Desktop\spotify_tracks.csv')
+data = pd.read_csv('spotify_tracks.csv')
 
 # Data Preprocessing
 data['name'] = data['name'].str.lower()
